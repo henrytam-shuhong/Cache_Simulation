@@ -1,0 +1,207 @@
+
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+5
+At that byte there is the value 0x5 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+6
+At that byte there is the value 0x6 (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+7
+At that byte there is the value 0x7 (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14c
+At that byte there is the value 0x4c (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14d
+At that byte there is the value 0x4d (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14e
+At that byte there is the value 0x4e (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14f
+At that byte there is the value 0x4f (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+150
+At that byte there is the value 0x50 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+151
+At that byte there is the value 0x51 (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+3A6
+At that byte there is the value 0xa6 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+4C3
+At that byte there is the value 0xc3 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot	Valid	Tag	Dirty	Data
+0	1	0	0	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+1	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+3	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+4	1	1	0	40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 
+5	1	1	0	50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F 
+6	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+7	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+8	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+9	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+A	1	3	0	A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AF 
+B	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+C	1	4	0	C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB CC CD CE CF 
+D	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+E	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+F	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+W
+What address would you like to write to?
+14C
+What data would you like to write at that address?
+99
+Value 99 has been written to address 14C (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+W
+What address would you like to write to?
+63B
+What data would you like to write at that address?
+7
+Value 7 has been written to address 63B (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+582
+At that byte there is the value 0x82 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot	Valid	Tag	Dirty	Data
+0	1	0	0	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+1	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+3	1	6	1	30 31 32 33 34 35 36 37 38 39 3A 07 3C 3D 3E 3F 
+4	1	1	1	40 41 42 43 44 45 46 47 48 49 4A 4B 99 4D 4E 4F 
+5	1	1	0	50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F 
+6	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+7	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+8	1	5	0	80 81 82 83 84 85 86 87 88 89 8A 8B 8C 8D 8E 8F 
+9	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+A	1	3	0	A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AF 
+B	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+C	1	4	0	C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB CC CD CE CF 
+D	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+E	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+F	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+348
+At that byte there is the value 0x48 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+3F
+At that byte there is the value 0x3f (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot	Valid	Tag	Dirty	Data
+0	1	0	0	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+1	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+3	1	0	0	30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F 
+4	1	3	0	40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 
+5	1	1	0	50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F 
+6	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+7	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+8	1	5	0	80 81 82 83 84 85 86 87 88 89 8A 8B 8C 8D 8E 8F 
+9	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+A	1	3	0	A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AF 
+B	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+C	1	4	0	C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB CC CD CE CF 
+D	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+E	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+F	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14b
+At that byte there is the value 0x4b (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14c
+At that byte there is the value 0x99 (Cache hit)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+63F
+At that byte there is the value 0x3f (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+83
+At that byte there is the value 0x83 (Cache miss)
+-----------------
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot	Valid	Tag	Dirty	Data
+0	1	0	0	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+1	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+3	1	6	0	30 31 32 33 34 35 36 37 38 39 3A 07 3C 3D 3E 3F 
+4	1	1	0	40 41 42 43 44 45 46 47 48 49 4A 4B 99 4D 4E 4F 
+5	1	1	0	50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F 
+6	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+7	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+8	1	0	0	80 81 82 83 84 85 86 87 88 89 8A 8B 8C 8D 8E 8F 
+9	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+A	1	3	0	A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AF 
+B	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+C	1	4	0	C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB CC CD CE CF 
+D	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+E	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+F	0	0	0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------
+
+Process finished with exit code 0
